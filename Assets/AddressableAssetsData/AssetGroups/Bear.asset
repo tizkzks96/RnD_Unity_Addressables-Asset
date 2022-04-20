@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Bear
+  m_EditorClassIdentifier: 
+  m_GroupName: Bear
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bd97016c26803714780693d1322a2c7a
+  m_SerializeEntries:
+  - m_GUID: 04dfc278367211442bfb5f9e2f33ef0b
+    m_Address: Bear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe139112aae9b104e84de903b9e4ab86
+    m_Address: texture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f3559ac770acaa47857c10629feca06
+    m_Address: mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7313d897636fc6944bb3b8816418290e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a89c9f14f54f87244bf00a64f318e4fc, type: 2}
+    - {fileID: 11400000, guid: 970fd7b5a8de6384a8698dcc12e38b94, type: 2}

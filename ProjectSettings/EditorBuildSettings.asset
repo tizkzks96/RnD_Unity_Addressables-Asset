@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Test/Addressable Asset/AddressableAssetTest.unity
+    guid: 765aff87772b1f14d96f015dd63b5288
   m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: a48df31253db7e943b1dcf37c809a1cb, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 54ade503d3247c44eaaa255cc13cc7a0,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 4e4892189f4b14448b3262c0e9ae0c12,
+      type: 2}

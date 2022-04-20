@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: a2846db62842c774bb5d59942d711f49
+  m_DefaultGroup: 73d38a3b69925df4c9f859ad9e45302d
   m_CachedHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -26,82 +26,301 @@ MonoBehaviour:
   m_NonRecursiveBuilding: 1
   m_CCDEnabled: 0
   m_maxConcurrentWebRequests: 500
-  m_ContiguousBundles: 1
+  m_ContiguousBundles: 0
   m_StripUnityVersionFromBundleBuild: 0
   m_DisableVisibleSubAssetRepresentations: 0
-  m_ShaderBundleNaming: 0
-  m_ShaderBundleCustomNaming: 
+  m_ShaderBundleNaming: 2
+  m_ShaderBundleCustomNaming: qweqwe
   m_MonoScriptBundleNaming: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 8305df4d2c0ea2c46bfde6cb1faebca7
+    m_Id: 4671c02742d00aa4ea0b1ec2952b706e
   m_RemoteCatalogLoadPath:
-    m_Id: 6d44fbb21ddd2a44ca3c7808394b1380
+    m_Id: 24492a96843f99e43a0afec2d9418eea
   m_ContentStateBuildPath: 
-  m_BuildAddressablesWithPlayerBuild: 0
-  m_overridePlayerVersion: 
+  m_BuildAddressablesWithPlayerBuild: 2
+  m_overridePlayerVersion: Universal_[BuildTarget]_V1
   m_GroupAssets:
-  - {fileID: 11400000, guid: 13752a137e3ae434283f09447a368fbd, type: 2}
-  - {fileID: 11400000, guid: 833817ced86ea934fb92d566cfa4a730, type: 2}
-  - {fileID: 11400000, guid: b6df033e2723ee44385ae2d96d7d9ecc, type: 2}
-  - {fileID: 11400000, guid: 4409579a80cdebe4fbd301da2433e940, type: 2}
+  - {fileID: 11400000, guid: 948221f982d82624abe03da428d8e4e0, type: 2}
+  - {fileID: 11400000, guid: 4388cd66e82ad874ea5a1d7b849a0045, type: 2}
+  - {fileID: 11400000, guid: 76d33e41bddc7ce41916374e184411cb, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
-    m_LogResourceManagerExceptions: 1
+    m_LogResourceManagerExceptions: 0
     m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
   m_ProfileSettings:
     m_Profiles:
     - m_InheritedParent: 
-      m_Id: 0e3fb914c4f579b47a8ec63b6dcb383d
+      m_Id: 0d6489529db0dac4cb8a13983f5a2cea
       m_ProfileName: Default
       m_Values:
-      - m_Id: cb3b4ca9ccab0a4498b9ac9f97b441c0
+      - m_Id: 99ffa02b4724a4f4e94c7ac8d6983515
+        m_Value: 
+      - m_Id: 44144375d88e2a5448baa2b122a41d73
+        m_Value: 
+      - m_Id: 06cdef50253ad5f41815127a3328223b
+        m_Value: 
+      - m_Id: 4671c02742d00aa4ea0b1ec2952b706e
+        m_Value: 
+      - m_Id: 6f646b9d7d8fcc84595adf0bff59b07e
+        m_Value: 
+      - m_Id: 24492a96843f99e43a0afec2d9418eea
+        m_Value: 
+    - m_InheritedParent: 
+      m_Id: 6101cc095411f2345844d5752af2b018
+      m_ProfileName: DevAzure
+      m_Values:
+      - m_Id: 99ffa02b4724a4f4e94c7ac8d6983515
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
-      - m_Id: a8f4288311d8c5a43991a296c82a0bb0
+      - m_Id: 44144375d88e2a5448baa2b122a41d73
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
-      - m_Id: bdb1a0817ed125f46891d46fcc593b0a
+      - m_Id: 06cdef50253ad5f41815127a3328223b
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
-      - m_Id: 8305df4d2c0ea2c46bfde6cb1faebca7
-        m_Value: ServerData/[BuildTarget]
-      - m_Id: 6d44fbb21ddd2a44ca3c7808394b1380
+      - m_Id: 4671c02742d00aa4ea0b1ec2952b706e
+        m_Value: ServerData/Dev/[BuildTarget]
+      - m_Id: 6f646b9d7d8fcc84595adf0bff59b07e
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 24492a96843f99e43a0afec2d9418eea
+        m_Value: '{SSC_Mobile_SceneManager.RuntimeRemoteLoadPath}'
+    - m_InheritedParent: 
+      m_Id: d0a2e03c9655f1041bc777e5b3653200
+      m_ProfileName: LocalHosting
+      m_Values:
+      - m_Id: 99ffa02b4724a4f4e94c7ac8d6983515
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 44144375d88e2a5448baa2b122a41d73
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 06cdef50253ad5f41815127a3328223b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4671c02742d00aa4ea0b1ec2952b706e
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 6f646b9d7d8fcc84595adf0bff59b07e
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 24492a96843f99e43a0afec2d9418eea
+        m_Value: '{SSC_Mobile_SceneManager.RuntimeRemoteLoadPath}'
+    - m_InheritedParent: 
+      m_Id: c908e6e45ee7af0489eaf9405f3b244c
+      m_ProfileName: ProductionAzure
+      m_Values:
+      - m_Id: 99ffa02b4724a4f4e94c7ac8d6983515
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 44144375d88e2a5448baa2b122a41d73
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 06cdef50253ad5f41815127a3328223b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4671c02742d00aa4ea0b1ec2952b706e
+        m_Value: ServerData/Production/[BuildTarget]
+      - m_Id: 6f646b9d7d8fcc84595adf0bff59b07e
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 24492a96843f99e43a0afec2d9418eea
+        m_Value: '{SSC_Mobile_SceneManager.RuntimeRemoteLoadPath}'
+    - m_InheritedParent: 
+      m_Id: 4201c2fa09f09d2458c741a88c1ab8f1
+      m_ProfileName: TestAzure
+      m_Values:
+      - m_Id: 99ffa02b4724a4f4e94c7ac8d6983515
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 44144375d88e2a5448baa2b122a41d73
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 06cdef50253ad5f41815127a3328223b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4671c02742d00aa4ea0b1ec2952b706e
+        m_Value: ServerData/Test/[BuildTarget]
+      - m_Id: 6f646b9d7d8fcc84595adf0bff59b07e
+        m_Value: https://ksacdn.blob.core.windows.net/cdn-ssc-au-test-container/aa/[BuildTarget]
+      - m_Id: 24492a96843f99e43a0afec2d9418eea
+        m_Value: 
+    - m_InheritedParent: 
+      m_Id: 9515797524fff524d9757d81da914b14
+      m_ProfileName: SSC_Universal
+      m_Values:
+      - m_Id: 99ffa02b4724a4f4e94c7ac8d6983515
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 44144375d88e2a5448baa2b122a41d73
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 06cdef50253ad5f41815127a3328223b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4671c02742d00aa4ea0b1ec2952b706e
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 6f646b9d7d8fcc84595adf0bff59b07e
+        m_Value: https://ksacdn.blob.core.windows.net/sscuniversalcontainer/ID/[BuildTarget]
+      - m_Id: 24492a96843f99e43a0afec2d9418eea
+        m_Value: '{AddressableAssetTest_Manager.RuntimeRemoteLoadPath}'
     m_ProfileEntryNames:
-    - m_Id: cb3b4ca9ccab0a4498b9ac9f97b441c0
+    - m_Id: 99ffa02b4724a4f4e94c7ac8d6983515
       m_Name: BuildTarget
       m_InlineUsage: 0
-    - m_Id: a8f4288311d8c5a43991a296c82a0bb0
-      m_Name: Local.BuildPath
+    - m_Id: 44144375d88e2a5448baa2b122a41d73
+      m_Name: LocalBuildPath
       m_InlineUsage: 0
-    - m_Id: bdb1a0817ed125f46891d46fcc593b0a
-      m_Name: Local.LoadPath
+    - m_Id: 06cdef50253ad5f41815127a3328223b
+      m_Name: LocalLoadPath
       m_InlineUsage: 0
-    - m_Id: 8305df4d2c0ea2c46bfde6cb1faebca7
-      m_Name: Remote.BuildPath
+    - m_Id: 4671c02742d00aa4ea0b1ec2952b706e
+      m_Name: RemoteBuildPath
       m_InlineUsage: 0
-    - m_Id: 6d44fbb21ddd2a44ca3c7808394b1380
-      m_Name: Remote.LoadPath
+    - m_Id: 6f646b9d7d8fcc84595adf0bff59b07e
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    - m_Id: 24492a96843f99e43a0afec2d9418eea
+      m_Name: RuntimeRemoteLoadPath
       m_InlineUsage: 0
     m_ProfileVersion: 1
   m_LabelTable:
     m_LabelNames:
     - default
+    - GalleryLX2
+    - ReviewLX2
+    - SpriteAtlasUI_Icons
+    - GalleryOS
+    - GalleryQX
+    - ReivewOS
+    - SpecOS
+    - SpecQX
+    - SpecLX2
+    - Addressable_Icons
+    - TutorialClipExample
+    - SpriteOS2020
+    - SpriteOSEV2020
+    - SpriteAEEV2021
+    - SpriteLX22021
+    - KSP_Jsons
+    - IntKSP
+    - intdomeLX22021
+    - Sprite_TransitionBG
+    - Sprite_TransitionBG_Mobile
+    - 2D360KspPoints
+    - Car2D360_TL_2020_D3W5D2G1XGGCTK
+    - Car1Cut_TQC_2020_GDF36B85DDDJHP
+    - Int1Cut_TL_2020
+    - Int1Cut_TQC_2020
+    - Car2D360_TL_2020_D3W52GA17DDBJ0
+    - Car2D360_TL_2020_D3W52GA1FGGCTJ
+    - Car2D360_TL_2020_D3W52GA1FDDBH2
+    - Car2D360_TL_2020_D3W52GA1FDDBH1
+    - Car2D360_TL_2020_D3W52EC5KGGCVX
+    - Car2D360_TL_2020_D3W52EC5KGGCTJ
+    - Car2D360_TL_2020_D3W52EC5KDDBH2
+    - Car2D360_TL_2020_D3W52EC5KDDBH1
+    - Car2D360_TL_2020_D3W5D2G1XGGCTL
+    - Car2D360_TL_2020_D3W52GA17DDBJ1
+    - Car1Cut_TQC_2020_GDF66B857DDJHV
+    - Car1Cut_TQC_2020_GDF66B857DDJHS
+    - Car1Cut_TQC_2020_GDF66B85DDDJHW
+    - Car1Cut_TQC_2020_GDF66B85DDDJHT
+    - Car1Cut_TQC_2020_GDF36B857DDJHQ
+    - Car1Cut_TQC_2020_GDF36B857DDJHN
+    - Car1Cut_TQC_2020_GDF36B85DDDJHR
+    - Int1Cut_AEPHEV_2020
+    - Int1Cut_AEHEV_2020
+    - Int1Cut_AEEV_2020
+    - Car2D360_JS_2020_ J3C4D2G1UGG538
+    - Car2D360_JS_2020_ J3C4D2G1UGG539
+    - Car2D360_JS_2020_ J3C4D2G1UGG540
+    - Car2D360_JS_2020_ J3C4D2G17GG535
+    - Car2D360_JS_2020_ J3C4D2G17GG536
+    - Car2D360_JS_2020_ J3C4D2G17GG537
+    - Car2D360_JS_2020_ J3C42G61FDD391
+    - Car2D360_JS_2020_ J3C42G617DD391
+    - Int1Cut_JS_2020
+    - Int1Cut_PDNLine_2021
+    - Int1Cut_PDN_2020
+    - Car2D360_AEEV_2020_G7S6ZCZ7ZGGANK
+    - Car2D360_AEEV_2020_G7S6ZCZ7ZGGANX
+    - Car2D360_AEHEV_2020_G2S6K6A1TEV1GGBAZ
+    - Car2D360_AEHEV_2020_G2S6K6A1TEV1GGBB0
+    - Car2D360_AEPHEV_2020_G2S6K6A1TEV2CC518
+    - Car2D360_AEPHEV_2020_G2S6K6A1TEV2CC519
+    - Car2D360_PDNLine_2021_G3S6D2G1UHH506
+    - Car2D360_PDNLine_2021_G3S6D2G1UHH520
+    - Car2D360_PDNLine_2021_G3S6D2G17HH519
+    - Car2D360_PDNLine_2021_G3S6D2G17HH521
+    - Int1Cut_TQ_2020
+    - Car2D360_PDN_2020_S0S6L5G17GG372
+    - Car2D360_PDN_2020_S0S6L5G17GG935
+    - Car2D360_PDN_2020_S0S6L5G17GG936
+    - Car2D360_PDNFastback_2020_S0T1L5G17GGA08
+    - Car2D360_PDNFastback_2020_S0T1L5G17GGA09
+    - Car2D360_PDNFastback_2020_S0T1L5G17GGA10
+    - Int1Cut_PDNFastback_2020
+    - Car1Cut_TQ_2020_GDB86B85DGGLQQ
+    - Car1Cut_TQ_2020_GDB86B85DGGLSP
+    - Acc_TM_2021
+    - TL_2020_2D360
+    - AEEV_2020_2D360
+    - AEHEV_2020_2D360
+    - AEPHEV_2020_2D360
+    - PDNLine_2021_2D360
+    - PDNFastback_2020_2D360
+    - PDN_2020_2D360
+    - TQC_2020_1Cut
+    - TQ_2020_1Cut
+    - CN7_Intdome_2021
+    - CN7NLine_Intdome_2021
+    - LX2_Intdome_2021
+    - OS_Intdome_2021
+    - QX_Intdome_2021
+    - TM_Intdome_2021
+    - OS_Intdome_2020
+    - OSEV_Intdome_2020
+    - OSEV_Intdome_2021
+    - OSNLine_Intdome_2021
+    - PD_Intdome_2021
+    - PDNLine_Intdome_2021
+    - AEEV_Intdome_2021
+    - NX4_Intdome_2022
+    - Locale
+    - Locale-en-AU
+    - Locale-en-US
+    - Locale-id-ID
+    - Locale-ar
+    - Locale-en
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
-  - {fileID: 11400000, guid: 992e1e8b33e440640a7aedc0121af8b4, type: 2}
+  - {fileID: 11400000, guid: 693534a79bbdad94499f0f4e83e26fe1, type: 2}
   m_InitializationObjects: []
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
   m_ActivePlayerDataBuilderIndex: 3
   m_DataBuilders:
-  - {fileID: 11400000, guid: 5b7884c943813d94b913b27e6736bc7b, type: 2}
-  - {fileID: 11400000, guid: c92ff5d5b37aea942a823e3e900e755a, type: 2}
-  - {fileID: 11400000, guid: f503fed118e348246969a658892fc307, type: 2}
-  - {fileID: 11400000, guid: 42a7baa5a09839d4db105245219683e2, type: 2}
-  m_ActiveProfileId: 0e3fb914c4f579b47a8ec63b6dcb383d
+  - {fileID: 11400000, guid: e0a94c3334fcafe4096cc102157b7452, type: 2}
+  - {fileID: 11400000, guid: 5dac9b2feffa84e47bf44da7c45dbc41, type: 2}
+  - {fileID: 11400000, guid: e0486858f0314d74eb94d1c24423f5f1, type: 2}
+  - {fileID: 11400000, guid: f216dcbd17686e9499231d26b766a74e, type: 2}
+  m_ActiveProfileId: 9515797524fff524d9757d81da914b14
   m_HostingServicesManager:
-    m_HostingServiceInfos: []
+    m_HostingServiceInfos:
+    - classRef: UnityEditor.AddressableAssets.HostingServices.HttpHostingService,
+        Unity.Addressables.Editor
+      dataStore:
+        m_SerializedData:
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 51853
+          m_Key: HostingServicePort
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: ServerData/StandaloneWindows64;
+          m_Key: ContentRoot
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Boolean
+          m_Data: False
+          m_Key: IsEnabled
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.String
+          m_Data: Local Hosting 2
+          m_Key: DescriptiveName
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 2
+          m_Key: InstanceId
+        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          m_ClassName: System.Int32
+          m_Data: 0
+          m_Key: HostingServiceUploadSpeed
     m_Settings: {fileID: 11400000}
-    m_NextInstanceId: 0
-    m_RegisteredServiceTypeRefs: []
+    m_NextInstanceId: 3
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
